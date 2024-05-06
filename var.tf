@@ -1,14 +1,14 @@
 variable "region" {
-  default = "us-east-2"
+  default = "us-east-1"
   description = "default region for aws"
 }
 
 variable "key_name" {
-  default = "tuncay"
+  default = "local"
 }
 
 variable "ami" {
-  default = "ami-0ddda618e961f2270"
+  default = "ami-07caf09b362be10b8"
 }
 
 variable "instance_type" {
