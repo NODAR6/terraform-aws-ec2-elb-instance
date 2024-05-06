@@ -14,12 +14,12 @@ resource "aws_instance" "terraform6" {
 
 # Create a new load balancer
 resource "aws_elb" "terraform6" {
-  name               = "tuncay-terraform6-elb"
-  availability_zones = ["us-west-2a", "us-west-2b", "us-west-2c"]
+  name               = "nodar-terraform6-elb"
+  availability_zones = ["us-west-1a", "us-west-1b", "us-west-1c"]
 
   access_logs {
     bucket        = "terraform6"
-    bucket_prefix = "tuncay-"
+    bucket_prefix = "ndoar-"
     interval      = 60
   }
 
