@@ -4,5 +4,5 @@ module "terraform6_elb" {
   instance_type = var.instance_type
   ami = var.ami
   key_name = "local"
-
+}
 ```
